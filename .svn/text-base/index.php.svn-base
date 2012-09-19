@@ -16,7 +16,7 @@
 		<div class="logo"><a href=""><img src="images/comingsoon.png" alt="Logo" /></a></div>
 		<!-- top_menu start -->
         <ul class="top_menu_l1">
-			<li id="course_menu">Courses
+			<li id="course_menu"><a href="course">Courses</a>
             	<ul class="top_menu_l2">
             		<li id="elementary_menu">Elementary Students
                     	<ul class="top_menu_l3">

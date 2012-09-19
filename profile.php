@@ -2,8 +2,13 @@
 require 'lib.php'; 
 if(is_login()):
 	$member = XD('Member')->find($_SESSION['email']);
+	echo "hello!!".$member->name;
+else:
+	Error::PageBack_and_Alert( "Please Sign in!" );
 endif;
-echo "hello!!".$member->name;
+$table = XD('Selection_table')->__call(find_by_email,$_SESSION['email']);
+
+//$course = XD('Course')->find()
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -99,12 +104,12 @@ http://plus.google.com/
 </li>
     
 <li>My Courses</li>
-<li><img src="https://s3.amazonaws.com/coursera/topics/friendsmoneybytes/small-icon.hover.png">Networks: Friends, Money, and Bytes
-</li>
-<li><img src="https://s3.amazonaws.com/coursera/topics/comparch/small-icon.hover.png">Computer Architecture
-</li>
-<li><img src="https://s3.amazonaws.com/coursera/topics/hci/small-icon.hover.png">Human-Computer Interaction
-</li>
+<? foreach($table as $item): 
+   $course = XD('Course')->find($item->course_ID);
+?>
+<li><img src="/coursera/images/course/<?=$course->image?>"><?=$course->name?></li>
+<? endforeach; ?>
+
      <input type="submit" value="Saved!">
         </form>
   </div>   
