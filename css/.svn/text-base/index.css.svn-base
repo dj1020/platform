@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+.wrap {
+	margin:0 auto;
+	width: 960px;
+}
+
+.header {
+	background:#666;
+	position: relative;
+	height: 103px;
+	display: block;
+}
+
+.logo{
+	width:auto;
+	height:auto;
+	position: absolute;
+ 	left: 5px;
+	top: 5px;
+}
+
+.top_menu_l1 {
+	background-color: red;
+	position: absolute;
+	right:50px;
+	bottom: 0px;
+	color: white;
+	letter-spacing:1px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.top_menu_l1 li{
+	padding: 11px 28px 10px 28px;
+	float: left;
+}
+
+.top_menu_l2{
+	display: none;
+	background: #FC9;
+	position: absolute;
+	float:left;
+	top: 100%;
+	width:auto;
+	height: auto;
+	z-index:500;
+}
+
+.top_menu_l2 li{
+	float: none;
+}
+
+.top_menu_l3{
+	display: none;
+	floag: none;
+	background:#C96;
+	position: absolute;
+	margin-top: -30px;
+	overflow: hidden;
+	left:100%;
+	width: 200px;
+	z-index:1000;
+	
+}
+
+.top_menu_l3 li{
+	float: none;
+}
+
+.content {
+	background: #CCC;
+	position: relative;
+	padding: 20px 0 20px 0;
+}
+
+.content .infovideo {
+	background: #FF9;
+	display: block;
+	text-align:center;
+	margin:0 auto;
+	width: 720px;
+	height: 360px;
+}
+
+.content .news {
+}
+
+.content .news h3{
+	text-indent: 15px;
+	margin:10px 0 10px 0;
+}
+
+.content .news .random_class{
+	position: relative;
+	padding:0 10px 0 10px;
+	margin:10px 0 10px 0;
+}
+
+.content .news .random_class li{
+	background:#FFF;
+	float: left;
+	width: 220px;
+	height: 200px;
+	margin: 5px;
+	display: block;
+}
+
+
+.content .categories {
+	background: white;
+	margin:10px 15px 0 15px;
+	display:block;
+	position: relative;
+}
+
+.content > h3{
+	font-size: 20px;
+	padding: 20px 15px 0 15px;
+}
+
+.content .categories .categories_grade{
+	padding-top:10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.content .categories .categories_grade h2{
+	float: left;
+}
+
+.categories .categories_grade #view_all_course {
+	float: right;
+	margin-right: 10px;
+}
+
+.content .categories .categories_grade span{
+	background:#C9F;
+	float: left;
+	width: 260px;
+ 	margin: 10px;
+	display: block;
+}
+
+.content .categories .categories_grade span ul li{
+	margin-left:40px;
+ 	list-style-type: circle; 
+}
+
+.content .categories .categories_grade span a{
+}
+
+.content .categories .categories_subject {
+	padding-top:10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.footer {
+	background:#666;
+	position: relative;
+	height: 32px;
+}
+
+.footer .nav {
+}
+
+.footer .nav ul li{
+	color:#FFF;
+	padding:5px 10px 5px 10px;
+	float: left;
+}
+
+
+.footer .socailmedia {
+	background-color: #FC0;
+	width:300px;
+	height: 100%;
+	float: right;
+	display: block;
+}

@@ -1,0 +1,114 @@
+<?php
+require 'lib.php'; 
+if(is_login()):
+	$member = XD('Member')->find($_SESSION['email']);
+endif;
+echo "hello!!".$member->name;
+?>
+<!DOCTYPE HTML>
+<html>
+<head>
+	<?php head('Profile');?>
+</head>
+<body>
+   <div>
+	<h1>My Profile</h1>
+	<p></p>
+   </div>
+<br>
+   <div>
+    <form action="profile_action" method="post">
+    <li>Privacy 
+	<select name="privacy" style="font-size:12px; line-height: 14px" class="coursera-profile-editor-privacy">
+	<? for($privacy=1;$privacy<4;$privacy++):
+		echo"<option value=\"$privacy\"";
+		if($privacy==$member->privacy)
+			echo "SELECTED >";
+		else
+			echo ">";
+		($privacy==1)?print("Only me.</option>"):(($privacy==2)?print("The Coursera community.</option>"):print("Everyone on the web.</option>"));	
+	endfor;
+	?>
+	</select>
+    <li>Location <input name="location" type="test" size="25" maxlength="25" value="<?=$member->location?>"/></li> 
+    <li>Gender 
+	<? for($gender=1;$gender<4;$gender++):
+		echo"<input type=\"radio\" name=\"gender\" value=\"$gender\"";
+		if($gender==$member->gender)
+			echo "CHECKED >";
+		else
+			echo ">";
+		($gender==1)?print(" Female "):(($gender==2)?print(" Male "):print(" I'd rather not say "));
+	   endfor;
+	?>
+    </li> 
+    <li>Birthday 
+	<select name="birth_month" >
+	<?
+	$month = array('Month','January','February','March','April','May','June','July','August','September','October','November','December');
+	
+	for($i=0;$i<13;$i++):
+		($i==$member->birth_month)?$select=" SELECTED":$select="";
+  		print("<option value=".$i.$select.">".$month[$i]."</option>");
+	endfor; 
+	?>
+  	</select>
+
+	<select name="birth_day">
+  	<option value="0">Day</option>
+	<?  
+	for($i=1;$i<32;$i++):
+		($i==$member->birth_day)?$select=" SELECTED":$select="";
+  		print("<option value=".$i.$select.">".$i."</option>");
+	endfor; ?>
+	</select>
+
+	<select name="birth_year">
+  	<option value="0">Year</option>
+	<?  
+	for($i=2012;$i>1900;$i--):
+		($i==$member->birth_year)?$select=" SELECTED":$select="";
+  		print("<option value=".$i.$select.">".$i."</option>");
+	endfor; ?>
+	</select>
+	Feel free to leave out your date or year.	
+    </li>
+    <li>About Me <textarea name="about_me" cols="20"><?=$member->about_me?></textarea></li> 
+<li>Websites
+<img src="https://dt5zaw6a98blc.cloudfront.net/static/images/icons/website_24_bw.png">
+<input name="website" type="text" value="<?=$member->website?>" style="width:290px"></li>
+<li>
+<img src="https://dt5zaw6a98blc.cloudfront.net/static/images/icons/linkedin_24_bw.png">http://linkedin.com/
+<input name="linkedin" type="text" value="<?=$member->linkedin?>">
+<a title="How to find your LinkedIn URL" href="http://help.linkedin.com/app/answers/detail/a_id/87" target="_blank" class="btn btn-small">?</a>
+</li>
+<li>
+<img src="https://dt5zaw6a98blc.cloudfront.net/static/images/icons/facebook_24_bw.png">http://facebook.com/<input name="facebook" type="text" value="<?=$member->facebook?>"><a title="How to find your Facebook URL" href="http://www.facebook.com/help/?faq=200712339971750#How-do-I-customize-my-timeline-or-Page-address?-Where-can-I-claim-a-username?" target="_blank" class="btn btn-small">?</a>
+</li>
+<li>
+<img src="https://dt5zaw6a98blc.cloudfront.net/static/images/icons/googleplus_24_bw.png">
+http://plus.google.com/
+<input name="gplus" type="text" value="<?=$member->gplus?>">
+</li>
+<li>
+<img src="https://dt5zaw6a98blc.cloudfront.net/static/images/icons/twitter_24_bw.png">http://twitter.com/
+<input name="twitter" type="text" value="<?=$member->twitter?>">
+</li>
+<li><img src="https://dt5zaw6a98blc.cloudfront.net/static/images/icons/github_24_bw.png">http://github.com/
+<input name="github" type="text" value="<?=$member->github?>">
+</li>
+    
+<li>My Courses</li>
+<li><img src="https://s3.amazonaws.com/coursera/topics/friendsmoneybytes/small-icon.hover.png">Networks: Friends, Money, and Bytes
+</li>
+<li><img src="https://s3.amazonaws.com/coursera/topics/comparch/small-icon.hover.png">Computer Architecture
+</li>
+<li><img src="https://s3.amazonaws.com/coursera/topics/hci/small-icon.hover.png">Human-Computer Interaction
+</li>
+     <input type="submit" value="Saved!">
+        </form>
+  </div>   
+
+
+</body>
+</html>
