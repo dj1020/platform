@@ -1,14 +1,14 @@
 10
 
 dir
-55
+61
 http://jerry@140.115.156.34:5566/svn/coursera/coursera
 http://jerry@140.115.156.34:5566/svn/coursera
 
 
 
-2012-09-19T02:51:15.192618Z
-55
+2012-09-19T09:20:54.220291Z
+61
 jerry
 
 
@@ -37,7 +37,7 @@ jerry
 
 coursera.sql
 file
-61
+
 
 
 
@@ -71,7 +71,7 @@ jerry
 
 course_select_action.php
 file
-60
+
 
 
 
@@ -137,40 +137,6 @@ jerry
 
 355
 
-classAutoload.php
-file
-
-
-
-
-2012-09-11T06:36:46.000000Z
-fa3f5a506f377e07e013186daca27562
-2012-09-11T06:21:28.990786Z
-8
-jerry
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-99
-
 footer.php
 file
 
@@ -205,16 +171,16 @@ ken
 
 490
 
-profile.php
+classAutoload.php
 file
-60
 
 
 
-2012-09-19T08:47:31.000000Z
-e747584155747c56b1fe0bc171c83626
-2012-09-19T08:48:51.347770Z
-60
+
+2012-09-11T06:36:46.000000Z
+fa3f5a506f377e07e013186daca27562
+2012-09-11T06:21:28.990786Z
+8
 jerry
 
 
@@ -237,11 +203,11 @@ jerry
 
 
 
-4229
+99
 
 course.php
 file
-60
+
 
 
 
@@ -272,6 +238,40 @@ jerry
 
 
 1666
+
+profile.php
+file
+
+
+
+
+2012-09-19T08:47:31.000000Z
+e747584155747c56b1fe0bc171c83626
+2012-09-19T08:48:51.347770Z
+60
+jerry
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4229
 
 sign_up_action.php
 file
@@ -307,6 +307,9 @@ jerry
 
 237
 
+css
+dir
+
 helpers.php
 file
 
@@ -340,9 +343,6 @@ jerry
 
 
 6173
-
-css
-dir
 
 sign_up.php
 file
@@ -448,7 +448,7 @@ jerry
 
 index.php
 file
-57
+
 
 
 

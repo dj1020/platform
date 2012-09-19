@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 34
-/svn/coursera/!svn/ver/55/coursera
+/svn/coursera/!svn/ver/61/coursera
 END
 coursera.sql
 K 25
@@ -21,29 +21,29 @@ svn:wc:ra_dav:version-url
 V 53
 /svn/coursera/!svn/ver/51/coursera/profile_action.php
 END
-footer.php
-K 25
-svn:wc:ra_dav:version-url
-V 45
-/svn/coursera/!svn/ver/41/coursera/footer.php
-END
 classAutoload.php
 K 25
 svn:wc:ra_dav:version-url
 V 51
 /svn/coursera/!svn/ver/8/coursera/classAutoload.php
 END
-profile.php
+footer.php
 K 25
 svn:wc:ra_dav:version-url
-V 46
-/svn/coursera/!svn/ver/60/coursera/profile.php
+V 45
+/svn/coursera/!svn/ver/41/coursera/footer.php
 END
 course.php
 K 25
 svn:wc:ra_dav:version-url
 V 45
 /svn/coursera/!svn/ver/60/coursera/course.php
+END
+profile.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/coursera/!svn/ver/60/coursera/profile.php
 END
 sign_up_action.php
 K 25
