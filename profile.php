@@ -2,27 +2,41 @@
 require 'lib.php'; 
 if(is_login()):
 	$member = XD('Member')->find($_SESSION['email']);
-	echo "hello!!".$member->name;
+	//echo "hello!!".$member->name;
 else:
 	Error::PageBack_and_Alert( "Please Sign in!" );
 endif;
-$table = XD('Selection_table')->__call(find_by_email,$_SESSION['email']);
-
-//$course = XD('Course')->find()
+$table = XD('Selection_table')->find_by_email($_SESSION['email']);
+$course = XD('Course')->find($table->course_ID);
 ?>
 <!DOCTYPE HTML>
 <html>
 <head>
 	<?php head('Profile');?>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/formly.js"></script>
+	<link rel="stylesheet" href="css/formly.css" type="text/css" />
+	<script>
+
+	$(document).ready(function() { 
+	
+		$('#profile').formly({'theme':'Dark'},function(e) {
+			$.post("profile_action.php", $("#profile").serialize());
+			alert('Success!');
+			//location.href='profile.php';
+	});
+});
+
+</script>
 </head>
 <body>
    <div>
-	<h1>My Profile</h1>
+	<h1></h1>
 	<p></p>
    </div>
 <br>
    <div>
-    <form action="profile_action" method="post">
+   <form id="profile" width="800px" title="My Profile">
     <li>Privacy 
 	<select name="privacy" style="font-size:12px; line-height: 14px" class="coursera-profile-editor-privacy">
 	<? for($privacy=1;$privacy<4;$privacy++):
@@ -110,7 +124,8 @@ http://plus.google.com/
 <li><img src="/coursera/images/course/<?=$course->image?>"><?=$course->name?></li>
 <? endforeach; ?>
 
-     <input type="submit" value="Saved!">
+     <input type="submit" value="Saved!"> <input type="button" value="Back to Homepage" onclick="javascript:window.location.href='index.php'">
+
         </form>
   </div>   
 

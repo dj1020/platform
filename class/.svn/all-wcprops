@@ -7,13 +7,13 @@ class_Database.php
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/coursera/!svn/ver/25/coursera/class/class_Database.php
+/svn/coursera/!svn/ver/62/coursera/class/class_Database.php
 END
 db_config.php
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/svn/coursera/!svn/ver/46/coursera/class/db_config.php
+/svn/coursera/!svn/ver/62/coursera/class/db_config.php
 END
 class_Factory.php
 K 25
@@ -30,8 +30,8 @@ END
 class_Error.php
 K 25
 svn:wc:ra_dav:version-url
-V 55
-/svn/coursera/!svn/ver/8/coursera/class/class_Error.php
+V 56
+/svn/coursera/!svn/ver/62/coursera/class/class_Error.php
 END
 class_RootObject.php
 K 25
@@ -51,6 +51,12 @@ svn:wc:ra_dav:version-url
 V 55
 /svn/coursera/!svn/ver/8/coursera/class/class_Pager.php
 END
+class_Authenticate.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/coursera/!svn/ver/62/coursera/class/class_Authenticate.php
+END
 class_Model.php
 K 25
 svn:wc:ra_dav:version-url
@@ -66,6 +72,6 @@ END
 class_XDFactory.php
 K 25
 svn:wc:ra_dav:version-url
-V 59
-/svn/coursera/!svn/ver/8/coursera/class/class_XDFactory.php
+V 60
+/svn/coursera/!svn/ver/62/coursera/class/class_XDFactory.php
 END

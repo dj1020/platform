@@ -16,7 +16,7 @@
 		<div class="logo"><a href=""><img src="images/comingsoon.png" alt="Logo" /></a></div>
 		<!-- top_menu start -->
         <ul class="top_menu_l1">
-			<li id="course_menu"><a href="course">Courses</a>
+			<li id="course_menu"><a href="course.php">Courses</a>
             	<ul class="top_menu_l2">
             		<li id="elementary_menu">Elementary Students
                     	<ul class="top_menu_l3">
@@ -57,12 +57,12 @@
             	</ul>
             </li>
 			<li>FAQ</li>
-			<li id="login_menu"><a href="sign_in">Login</a>
+			<li id="login_menu"><a href="sign_in.php">Login</a>
             	<ul class="top_menu_l2">
             		<li>Course</li>
-            		<li><a href="profile">Profile</a></li>
+            		<li><a href="profile.php">Profile</a></li>
             		<li>Settings</li>
-            		<li><a href="logout">Logout</a></li>
+            		<li><a href="logout.php">Logout</a></li>
             	</ul>            
             </li>
 		</ul>

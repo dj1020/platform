@@ -7,4 +7,4 @@ foreach($fields as $f) {
 	$member->$f = $_POST[$f];
 }
 $member->save();
-header("Location:profile");
+header("Location:profile.php");

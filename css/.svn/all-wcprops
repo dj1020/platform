@@ -3,6 +3,12 @@ svn:wc:ra_dav:version-url
 V 38
 /svn/coursera/!svn/ver/37/coursera/css
 END
+formly.css
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/coursera/!svn/ver/62/coursera/css/formly.css
+END
 reset_jerry.css
 K 25
 svn:wc:ra_dav:version-url

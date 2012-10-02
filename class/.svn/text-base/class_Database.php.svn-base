@@ -102,5 +102,5 @@ class Database {
 	print_r($r);
 	echo "</pre>";
 
-*/
+/*
 ?>

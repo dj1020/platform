@@ -1,5 +1,6 @@
 <?php require 'lib.php';
-if(ereg("[0-9a-zA-Z]+$",$_POST['email'])&&ereg("[0-9a-zA-Z]+$",$_POST['password'])){
+//if(ereg("[0-9a-zA-Z]+$",$_POST['email'])&&ereg("[0-9a-zA-Z]+$",$_POST['password'])){
+
 
 	$member = XD('Member')->find($_POST['email']);
 	if($member==NULL){  
@@ -17,5 +18,5 @@ if(ereg("[0-9a-zA-Z]+$",$_POST['email'])&&ereg("[0-9a-zA-Z]+$",$_POST['password'
 		Error::PageBack_and_Alert( "登入失敗,您輸入的使用者名稱或密碼錯誤" ); //回上一頁並提出警告
 		exit();
 	}
-}
+
 ?>

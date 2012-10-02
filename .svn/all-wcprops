@@ -19,13 +19,7 @@ profile_action.php
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/coursera/!svn/ver/51/coursera/profile_action.php
-END
-classAutoload.php
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/coursera/!svn/ver/8/coursera/classAutoload.php
+/svn/coursera/!svn/ver/62/coursera/profile_action.php
 END
 footer.php
 K 25
@@ -33,23 +27,35 @@ svn:wc:ra_dav:version-url
 V 45
 /svn/coursera/!svn/ver/41/coursera/footer.php
 END
-course.php
+classAutoload.php
 K 25
 svn:wc:ra_dav:version-url
-V 45
-/svn/coursera/!svn/ver/60/coursera/course.php
+V 51
+/svn/coursera/!svn/ver/8/coursera/classAutoload.php
 END
 profile.php
 K 25
 svn:wc:ra_dav:version-url
 V 46
-/svn/coursera/!svn/ver/60/coursera/profile.php
+/svn/coursera/!svn/ver/62/coursera/profile.php
+END
+course.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/coursera/!svn/ver/62/coursera/course.php
 END
 sign_up_action.php
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/coursera/!svn/ver/46/coursera/sign_up_action.php
+/svn/coursera/!svn/ver/62/coursera/sign_up_action.php
+END
+auth.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/coursera/!svn/ver/62/coursera/auth.php
 END
 helpers.php
 K 25
@@ -61,7 +67,7 @@ sign_up.php
 K 25
 svn:wc:ra_dav:version-url
 V 46
-/svn/coursera/!svn/ver/46/coursera/sign_up.php
+/svn/coursera/!svn/ver/62/coursera/sign_up.php
 END
 testmysql.php
 K 25
@@ -79,7 +85,13 @@ index.php
 K 25
 svn:wc:ra_dav:version-url
 V 44
-/svn/coursera/!svn/ver/57/coursera/index.php
+/svn/coursera/!svn/ver/62/coursera/index.php
+END
+forget_password.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/coursera/!svn/ver/62/coursera/forget_password.php
 END
 logout.php
 K 25
@@ -87,17 +99,47 @@ svn:wc:ra_dav:version-url
 V 45
 /svn/coursera/!svn/ver/35/coursera/logout.php
 END
+mailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/coursera/!svn/ver/62/coursera/mailer.php
+END
+term_of_service.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/coursera/!svn/ver/62/coursera/term_of_service.php
+END
+honor_code.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/coursera/!svn/ver/62/coursera/honor_code.php
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/coursera/!svn/ver/62/coursera/test.php
+END
+testmail.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/coursera/!svn/ver/62/coursera/testmail.php
+END
 sign_in_check.php
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/coursera/!svn/ver/46/coursera/sign_in_check.php
+/svn/coursera/!svn/ver/62/coursera/sign_in_check.php
 END
 sign_in.php
 K 25
 svn:wc:ra_dav:version-url
 V 46
-/svn/coursera/!svn/ver/33/coursera/sign_in.php
+/svn/coursera/!svn/ver/62/coursera/sign_in.php
 END
 header.php
 K 25
