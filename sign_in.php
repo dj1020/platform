@@ -6,10 +6,14 @@
 $(document).ready(function() { 
 	
 	$('#sign_in').formly({'theme':'Base'},function(e) {
-		$.post("sign_in_check.php", $("#sign_in").serialize());
-		//$.post("sometarget.php", $("#contactInfo").serialize());
-		//alert('請您去指定的電子郵件信箱內點取認證信，謝謝');
-		location.href='index.php';
+		$.post("sign_in_check.php", $("#sign_in").serialize(),function(data){
+    		if(data.check=="fail"){
+			//alert("error");
+			$("#error").css("display", "block");
+		}
+		else
+			location.href='index.php';
+	  }, "json");
 	});
 });
 
@@ -21,6 +25,7 @@ $(document).ready(function() {
 </div>
 
 <form id="sign_in" width="400px" title="Sign In.">
+<span id="error" style="display:none;color:red;">You have entered an unknown email or password</span>
 Email address: <input type="text" name="email" place="Email" validate="email" size="30"/><br>
 Password: <input type="password" name="password" place="Password" label="Password" require="true" /><br>
 <input type="submit" value="Sign In"> <a href="forget_password.php">forgot password?</a>

@@ -45,7 +45,7 @@
 <div> 
 <h2 data-msg="coursera-course-about" class="coursera-course-heading">About the Course</h2>
 
-<div class="coursera-course-detail">Two of the most inspiring, least understood, and most often derided terms in global health discourse are “Health for All” and “Primary Health Care.” In this course, we will explore these terms in the context of global health, their origins and meanings, the principles upon which they rest, and examples of how these principles have been implemented both at small scale as well as at large scale. We will also explore some ultra-low-cost approaches to Health for All through primary health care and the promise that primary health care holds for eventually achieving Health for All.<br><br>
+<div class="coursera-course-detail">Two of the most inspiring, least understood, and most often derided terms in global health discourse are "Health for All" and "Primary Health Care." In this course, we will explore these terms in the context of global health, their origins and meanings, the principles upon which they rest, and examples of how these principles have been implemented both at small scale as well as at large scale. We will also explore some ultra-low-cost approaches to Health for All through primary health care and the promise that primary health care holds for eventually achieving Health for All.<br><br>
 The course consists of six one-hour lectures with readings and opportunities for discussions among those taking the course and interactions with the professor.</div>
 
 <h2 data-msg="coursera-course-instructor" class="coursera-course-heading">About the Instructor(s)</h2>
