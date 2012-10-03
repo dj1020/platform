@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/coursera/!svn/ver/62/coursera/PHPMailer_v5.1
+END
+class.phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/coursera/!svn/ver/62/coursera/PHPMailer_v5.1/class.phpmailer.php
+END
+class.pop3.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/coursera/!svn/ver/62/coursera/PHPMailer_v5.1/class.pop3.php
+END
+class.smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/coursera/!svn/ver/62/coursera/PHPMailer_v5.1/class.smtp.php
+END
