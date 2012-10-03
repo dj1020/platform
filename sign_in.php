@@ -15,6 +15,12 @@ $(document).ready(function() {
 
 </script>
 
+<div>
+	<h1>Sign In.</h1>
+	<p>Sign into your Coursera account with an email and a previously chosen password.</p>
+</div>
+<br />
+
 <form id="sign_in" width="400px" title="Sign In.">
 Email address: <input type="text" name="email" place="Email" validate="email" size="30"/><br>
 Password: <input type="password" name="password" place="Password" label="Password" require="true" /><br>

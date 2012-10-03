@@ -180,6 +180,10 @@
 	display: block;
 }
 
+.hide {
+	display: none;
+}
+
 .ken-lightbox-bg{
 	margin:0;
 	display:none;
@@ -220,10 +224,26 @@
 	font-size: 24px;
 }
 
+.ken-lightbox-close{
+	position: absolute;
+	display:block;
+	width: 32px;
+	height: 32px;
+	right:5px;
+	top:5px;
+	background:url(../images/x.png) no-repeat;
+	cursor: pointer;
+}
 
+.signup {
+	color: blue;
+}
 
-
-
+.signup:Hover{
+	color: blue;
+	text-decoration:underline;
+	cursor: pointer;
+}
 
 
 

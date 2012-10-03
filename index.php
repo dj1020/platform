@@ -19,13 +19,13 @@
         <ul class="top_menu_l1">
 			<li id="course_menu"><a href="course.php">Courses</a>
             	<ul class="top_menu_l2">
-            		<li id="elementary_menu">Elementary Students</li>
-            		<li id="junior_menu">Junior Students</li>
-            		<li id="senior_menu">Senior Students</li>
+            		<li>Elementary Students</li>
+            		<li>Junior Students</li>
+            		<li>Senior Students</li>
             	</ul>
             </li>
 			<li>Join us</li>
-			<li id="about_menu">About
+			<li>About
              	<ul class="top_menu_l2">
             		<li>Jobs</li>
             		<li>Team</li>
@@ -35,7 +35,7 @@
             </li>
 			<li>FAQ</li>
 			<li id="login_menu">
-				<a id="signin" href="#"><?php echo (false)?'Ken':'Login';?></a>
+				<a id="signin" href="#login"><?php echo (false)?'Ken':'Login';?></a>
 				<?php if(false) { ?>
 					<ul class="top_menu_l2">
 						<li>Course</li>
@@ -124,18 +124,18 @@
 <!-- Lightbox start -->
 <div class="ken-lightbox-bg"></div>
 <div class="ken-lightbox">
+	<div class='ken-lightbox-close'></div>
 	<div class="ken-lightbox-content">
-		<div>
-			<h1>Sign In.</h1>
-			<p>Sign into your Coursera account with an email and a previously chosen password.</p>
-		</div>
+		<div class='login_form'><?php require 'sign_in.php' ?></div>
 		<br />
-		<?php require 'sign_in.php' ?>
-		<br />
-		<div>
+		<div class='signin_msg'>
 			<p>No account yet?</p>
-			<p><a class='sign_up' href='#'>Sign up</a> today.</p>
+			<p><a class='signup'>Sign up</a> today.</p>
 		</div> 
+		<div class='signup_msg hide'>
+			<p>Already Have an Account?</p>
+			<p>If you already have a password, please <a href="sign_in.php">Sign in</a>.</p>
+		</div>
 	</div>
 	<!-- lightbox-content end -->
 </div>

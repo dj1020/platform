@@ -18,6 +18,7 @@ $(document).ready(function(){
 			);
 		});
 		
+		/* Login lightbox show */
 		login_btn = $('#signin');
 		login_btn.click(function(){
 			lightbox_bg = $('.ken-lightbox-bg');
@@ -30,5 +31,22 @@ $(document).ready(function(){
 			lightbox.fadeIn('fast');
 			
 		});
+		/* Login lightbox show end */
 
+		/* Login lightbox close */
+		close_btn = $('.ken-lightbox-close');
+		close_btn.click(function(){
+			lightbox_bg.fadeOut('fast');
+			lightbox.fadeOut('fast');
+		});
+		/* Login lightbox close end */
+		
+		/* Sign up */
+		sign_up_btn = $('.ken-lightbox-content .signup');
+		sign_up_btn.click(function(){
+			$('.login_form').load("./sign_up.php");
+			$('.signin_msg').addClass('hide');
+			$('.signup_msg').removeClass('hide');
+		});
+		
 });

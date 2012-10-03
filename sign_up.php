@@ -19,6 +19,7 @@ $(document).ready(function() {
 	<h1>Sign Up.</h1>
 	<p>With a Coursera account you can enroll in multiple courses and keep track of them all in one place.</p>
 </div>
+<br />
 
 <form id="sign_up" width="400px" title="Sign Up.">
 Full name: <input type="text" name="name" place="Full Name" label="Full Name" require="true" size="30"/><br>
@@ -28,7 +29,3 @@ Password: <input type="password" name="password" place="Password" label="Passwor
 <input type="submit" value="Sign up" />
 </form>
 
-<div>
-	<p>Already Have an Account?</p>
-	<p>If you already have a password, please <a href="sign_in.php">Sign in</a>.</p>
-  </div>
