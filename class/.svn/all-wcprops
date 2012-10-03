@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/coursera/!svn/ver/60/coursera/class
+END
+class_Database.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/coursera/!svn/ver/62/coursera/class/class_Database.php
+END
+db_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/coursera/!svn/ver/62/coursera/class/db_config.php
+END
+class_Factory.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/coursera/!svn/ver/8/coursera/class/class_Factory.php
+END
+class_Member.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/coursera/!svn/ver/24/coursera/class/class_Member.php
+END
+class_Error.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/coursera/!svn/ver/62/coursera/class/class_Error.php
+END
+class_RootObject.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/coursera/!svn/ver/8/coursera/class/class_RootObject.php
+END
+class_Selection_table.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/coursera/!svn/ver/60/coursera/class/class_Selection_table.php
+END
+class_Pager.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/coursera/!svn/ver/8/coursera/class/class_Pager.php
+END
+class_Authenticate.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/coursera/!svn/ver/62/coursera/class/class_Authenticate.php
+END
+class_Model.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/coursera/!svn/ver/8/coursera/class/class_Model.php
+END
+class_Course.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/coursera/!svn/ver/54/coursera/class/class_Course.php
+END
+class_XDFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/coursera/!svn/ver/62/coursera/class/class_XDFactory.php
+END

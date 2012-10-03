@@ -1,0 +1,75 @@
+[24-Sep-2012 04:14:21 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'hostname' (25) in /home/eduxglob/public_html/idoclub.org/platform/testmysql.php on line 2
+[24-Sep-2012 04:22:50 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on '140.115.156.34' (4) in /home/eduxglob/public_html/idoclub.org/platform/testmysql.php on line 2
+[24-Sep-2012 04:23:45 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on '140.115.156.34' (4) in /home/eduxglob/public_html/idoclub.org/platform/testmysql.php on line 2
+[24-Sep-2012 04:24:45 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on '140.115.156.34' (4) in /home/eduxglob/public_html/idoclub.org/platform/testmysql.php on line 2
+[24-Sep-2012 05:20:00 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on '140.115.156.34' (4) in /home/eduxglob/public_html/idoclub.org/platform/testmysql.php on line 2
+[25-Sep-2012 02:34:14 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2003): Can't connect to MySQL server on '140.115.156.34' (110) in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 18
+[25-Sep-2012 02:56:40 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2003): Can't connect to MySQL server on '140.115.156.34' (110) in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 18
+[25-Sep-2012 03:05:28 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2003): Can't connect to MySQL server on '140.115.156.34' (110) in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 18
+[25-Sep-2012 03:06:38 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2003): Can't connect to MySQL server on '140.115.156.34' (110) in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 18
+[25-Sep-2012 03:09:34 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'eduxglob_video'@'server27.abstractdns.com' (using password: YES) in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 18
+[25-Sep-2012 03:19:10 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'video'@'server27.abstractdns.com' (using password: YES) in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 18
+[25-Sep-2012 03:20:53 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'eduxglob_video'@'server27.abstractdns.com' (using password: YES) in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 18
+[25-Sep-2012 03:22:40 UTC] PHP Warning:  The magic method __set() must have public visibility and cannot be static in /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php on line 34
+[25-Sep-2012 03:22:40 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php on line 46
+[25-Sep-2012 03:22:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Bad SQL!! [SELECT * FROM Member WHERE email='q']' in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php:33
+Stack trace:
+#0 /home/eduxglob/public_html/idoclub.org/platform/class/class_XDFactory.php(36): Database->query('SELECT * FROM M...')
+#1 /home/eduxglob/public_html/idoclub.org/platform/sign_in_check.php(4): XDFactory->find('q')
+#2 {main}
+  thrown in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 33
+[25-Sep-2012 03:23:20 UTC] PHP Warning:  The magic method __set() must have public visibility and cannot be static in /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php on line 34
+[25-Sep-2012 03:23:20 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php on line 46
+[25-Sep-2012 03:23:20 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Bad SQL!! [SELECT * FROM Selection_table WHERE email='']' in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php:33
+Stack trace:
+#0 /home/eduxglob/public_html/idoclub.org/platform/class/class_XDFactory.php(91): Database->query('SELECT * FROM S...')
+#1 /home/eduxglob/public_html/idoclub.org/platform/class/class_XDFactory.php(73): XDFactory->field_query('email', NULL)
+#2 /home/eduxglob/public_html/idoclub.org/platform/profile.php(9): XDFactory->__call('find_by_email', NULL)
+#3 {main}
+  thrown in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 33
+[25-Sep-2012 03:23:33 UTC] PHP Warning:  The magic method __set() must have public visibility and cannot be static in /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php on line 34
+[25-Sep-2012 03:23:33 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php on line 46
+[25-Sep-2012 03:23:33 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Bad SQL!! [INSERT INTO Member (name,email,password) VALUES ('w','w','f1290186a5d0b1ceab27f4e77c0c5d68')]' in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php:55
+Stack trace:
+#0 /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php(106): Database->execute('INSERT INTO Mem...')
+#1 /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php(97): RootObject->runSQL(NULL)
+#2 /home/eduxglob/public_html/idoclub.org/platform/sign_up_action.php(10): RootObject->save()
+#3 {main}
+  thrown in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 55
+[25-Sep-2012 03:39:30 UTC] PHP Warning:  The magic method __set() must have public visibility and cannot be static in /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php on line 34
+[25-Sep-2012 03:39:30 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php on line 46
+[25-Sep-2012 03:39:30 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Bad SQL!! [INSERT INTO Member (name,email,password) VALUES ('w','w','f1290186a5d0b1ceab27f4e77c0c5d68')]' in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php:55
+Stack trace:
+#0 /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php(106): Database->execute('INSERT INTO Mem...')
+#1 /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php(97): RootObject->runSQL(NULL)
+#2 /home/eduxglob/public_html/idoclub.org/platform/sign_up_action.php(10): RootObject->save()
+#3 {main}
+  thrown in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 55
+[25-Sep-2012 03:39:47 UTC] PHP Warning:  The magic method __set() must have public visibility and cannot be static in /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php on line 34
+[25-Sep-2012 03:39:47 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php on line 46
+[25-Sep-2012 03:39:47 UTC] PHP Warning:  Unterminated comment starting line 94 in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 94
+[25-Sep-2012 03:39:47 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Bad SQL!! [INSERT INTO Member (name,email,password) VALUES ('w','w','f1290186a5d0b1ceab27f4e77c0c5d68')]' in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php:55
+Stack trace:
+#0 /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php(106): Database->execute('INSERT INTO Mem...')
+#1 /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php(97): RootObject->runSQL(NULL)
+#2 /home/eduxglob/public_html/idoclub.org/platform/sign_up_action.php(10): RootObject->save()
+#3 {main}
+  thrown in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 55
+[02-Oct-2012 02:41:18 UTC] PHP Warning:  Unterminated comment starting line 94 in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 94
+[02-Oct-2012 02:41:18 UTC] PHP Warning:  The magic method __set() must have public visibility and cannot be static in /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php on line 34
+[02-Oct-2012 02:41:18 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php on line 46
+[02-Oct-2012 02:41:18 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Bad SQL!! [SELECT * FROM Course ORDER BY start_date ASC]' in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php:33
+Stack trace:
+#0 /home/eduxglob/public_html/idoclub.org/platform/class/class_XDFactory.php(121): Database->query('SELECT * FROM C...')
+#1 /home/eduxglob/public_html/idoclub.org/platform/course.php(4): XDFactory->all()
+#2 {main}
+  thrown in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 33
+[02-Oct-2012 04:18:48 UTC] PHP Warning:  Unterminated comment starting line 94 in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 94
+[02-Oct-2012 04:18:48 UTC] PHP Warning:  The magic method __set() must have public visibility and cannot be static in /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php on line 34
+[02-Oct-2012 04:18:48 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/eduxglob/public_html/idoclub.org/platform/class/class_RootObject.php on line 46
+[02-Oct-2012 04:18:48 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Bad SQL!! [SELECT * FROM Course ORDER BY start_date ASC]' in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php:33
+Stack trace:
+#0 /home/eduxglob/public_html/idoclub.org/platform/class/class_XDFactory.php(121): Database->query('SELECT * FROM C...')
+#1 /home/eduxglob/public_html/idoclub.org/platform/course.php(4): XDFactory->all()
+#2 {main}
+  thrown in /home/eduxglob/public_html/idoclub.org/platform/class/class_Database.php on line 33
