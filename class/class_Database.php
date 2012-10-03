@@ -102,5 +102,9 @@ class Database {
 	print_r($r);
 	echo "</pre>";
 
+<<<<<<< HEAD
 */
+=======
+/*
+>>>>>>> f54285bae726325054fdb2e8aae1950517928c9c
 ?>
